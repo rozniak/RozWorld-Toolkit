@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Oddmatics.RozWorld.Toolkit.Windows
+namespace Oddmatics.RozWorld.Toolkit.UI.Dialogs
 {
-    public partial class MainGui : Form
+    public partial class NewDialog : Form
     {
-        public MainGui()
+        public NewDialog()
         {
             InitializeComponent();
         }

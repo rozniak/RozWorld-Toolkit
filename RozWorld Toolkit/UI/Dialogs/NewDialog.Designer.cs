@@ -1,4 +1,4 @@
-﻿namespace Oddmatics.RozWorld.Toolkit.Windows.Dialogs
+﻿namespace Oddmatics.RozWorld.Toolkit.UI.Dialogs
 {
     partial class NewDialog
     {
