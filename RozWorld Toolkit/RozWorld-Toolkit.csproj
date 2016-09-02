@@ -104,6 +104,54 @@
   <ItemGroup>
     <None Include="Resources\SaveFormDesignHS.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redo_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CutHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PasteHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FindHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book_openHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelApproval_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApproveReject_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditTask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenSelectedItemHS1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ActualSizeHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AppWindow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrangeWindowsHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar_scheduleHS.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
