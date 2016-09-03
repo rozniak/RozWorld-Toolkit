@@ -60,6 +60,12 @@
     <Compile Include="UI\Dialogs\NewDialog.Designer.cs">
       <DependentUpon>NewDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Dialogs\OpenWhatDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Dialogs\OpenWhatDialog.Designer.cs">
+      <DependentUpon>OpenWhatDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\MainGui.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     </Compile>
     <EmbeddedResource Include="UI\Dialogs\NewDialog.resx">
       <DependentUpon>NewDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Dialogs\OpenWhatDialog.resx">
+      <DependentUpon>OpenWhatDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\MainGui.resx">
       <DependentUpon>MainGui.cs</DependentUpon>

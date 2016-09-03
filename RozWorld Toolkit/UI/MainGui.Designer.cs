@@ -248,6 +248,7 @@
             this.FileOpenMenu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.FileOpenMenu.Size = new System.Drawing.Size(189, 22);
             this.FileOpenMenu.Text = "Open";
+            this.FileOpenMenu.Click += new System.EventHandler(this.Open_MenuButton_Click);
             // 
             // FileOpenMenuCbf
             // 
@@ -1083,6 +1084,7 @@
             this.StdToolbarOpenSplit.Name = "StdToolbarOpenSplit";
             this.StdToolbarOpenSplit.Size = new System.Drawing.Size(32, 22);
             this.StdToolbarOpenSplit.Text = "toolStripButton2";
+            this.StdToolbarOpenSplit.ButtonClick += new System.EventHandler(this.Open_MenuButton_Click);
             // 
             // StdToolbarOpenCbf
             // 

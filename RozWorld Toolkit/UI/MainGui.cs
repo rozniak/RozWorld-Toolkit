@@ -25,6 +25,11 @@ namespace Oddmatics.RozWorld.Toolkit.UI
             InvokeNewDialog();
         }
 
+        private void Open_MenuButton_Click(object sender, EventArgs e)
+        {
+            InvokeOpenWhatDialog();
+        }
+
         #endregion
 
 
@@ -38,6 +43,15 @@ namespace Oddmatics.RozWorld.Toolkit.UI
             var newDialog = new NewDialog();
 
             newDialog.ShowDialog();
+        }
+
+        public void InvokeOpenWhatDialog()
+        {
+            // TODO: Handle anything that needs to be dealt with before showing the open what dialog
+
+            var openWhatDialog = new OpenWhatDialog();
+
+            openWhatDialog.ShowDialog();
         }
     }
 }
