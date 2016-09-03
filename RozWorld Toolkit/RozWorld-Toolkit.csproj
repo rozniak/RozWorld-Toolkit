@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="UI\Dialogs\NewDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,14 +73,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -105,12 +105,6 @@
     <None Include="Resources\SaveFormDesignHS.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Undo_16x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Redo_16x.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\CutHS.png" />
   </ItemGroup>
   <ItemGroup>
@@ -129,16 +123,10 @@
     <None Include="Resources\Book_openHS.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\CancelApproval_32x32.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ApproveReject_16x16.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\EditTask.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OpenSelectedItemHS1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ActualSizeHS.png" />
@@ -151,6 +139,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Calendar_scheduleHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UI\Tab\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_RedoHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_UndoHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FillRightHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewWindow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarningHS.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

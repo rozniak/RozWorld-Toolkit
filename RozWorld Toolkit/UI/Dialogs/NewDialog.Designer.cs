@@ -28,14 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Server");
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Client");
             System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("RozWorld", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode2});
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("World", 0);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewDialog));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.ImgListItemIcons = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -78,12 +82,26 @@
             // listView1
             // 
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.HideSelection = false;
+            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1});
+            this.listView1.LargeImageList = this.ImgListItemIcons;
             this.listView1.Location = new System.Drawing.Point(0, 0);
+            this.listView1.MinimumSize = new System.Drawing.Size(100, 100);
+            this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(418, 431);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.List;
+            this.listView1.View = System.Windows.Forms.View.Tile;
+            // 
+            // ImgListItemIcons
+            // 
+            this.ImgListItemIcons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ImgListItemIcons.ImageStream")));
+            this.ImgListItemIcons.TransparentColor = System.Drawing.Color.Transparent;
+            this.ImgListItemIcons.Images.SetKeyName(0, "14.ico");
+            this.ImgListItemIcons.Images.SetKeyName(1, "300.ico");
+            this.ImgListItemIcons.Images.SetKeyName(2, "220.ico");
             // 
             // NewDialog
             // 
@@ -106,5 +124,6 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ImageList ImgListItemIcons;
     }
 }
