@@ -66,6 +66,12 @@
     <Compile Include="UI\Dialogs\OpenWhatDialog.Designer.cs">
       <DependentUpon>OpenWhatDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Dialogs\SelectInstanceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Dialogs\SelectInstanceDialog.Designer.cs">
+      <DependentUpon>SelectInstanceDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\MainGui.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\OpenWhatResult.cs" />
     <Compile Include="UI\Tab\StartPageTab.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -82,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Dialogs\OpenWhatDialog.resx">
       <DependentUpon>OpenWhatDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Dialogs\SelectInstanceDialog.resx">
+      <DependentUpon>SelectInstanceDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\MainGui.resx">
       <DependentUpon>MainGui.cs</DependentUpon>
@@ -157,6 +167,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\112_RefreshArrow_Green_16x16_72.png" />
+    <None Include="Resources\112_RefreshArrow_Green_24x24_72.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Edit_RedoHS.png" />

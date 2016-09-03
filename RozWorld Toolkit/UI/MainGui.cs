@@ -51,7 +51,32 @@ namespace Oddmatics.RozWorld.Toolkit.UI
 
             var openWhatDialog = new OpenWhatDialog();
 
-            openWhatDialog.ShowDialog();
+            if (openWhatDialog.ShowDialog() == DialogResult.OK)
+            {
+                // Temporary test code
+                switch (openWhatDialog.Selected)
+                {
+                    case OpenWhatResult.ClientByInstance:
+                        var selectClientDialog = new SelectInstanceDialog();
+
+                        selectClientDialog.Filter = "explorer.exe";
+                        selectClientDialog.Subject = "client";
+
+                        selectClientDialog.ShowDialog();
+
+                        break;
+
+                    case OpenWhatResult.ServerByInstance:
+                        var selectServerDialog = new SelectInstanceDialog();
+
+                        selectServerDialog.Filter = "csrss.exe";
+                        selectServerDialog.Subject = "server";
+
+                        selectServerDialog.ShowDialog();
+
+                        break;
+                }
+            }
         }
     }
 }

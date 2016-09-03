@@ -63,6 +63,26 @@ namespace Oddmatics.RozWorld.Toolkit.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _112_RefreshArrow_Green_16x16_72 {
+            get {
+                object obj = ResourceManager.GetObject("112_RefreshArrow_Green_16x16_72", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _112_RefreshArrow_Green_24x24_72 {
+            get {
+                object obj = ResourceManager.GetObject("112_RefreshArrow_Green_24x24_72", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ActualSizeHS {
             get {
                 object obj = ResourceManager.GetObject("ActualSizeHS", resourceCulture);

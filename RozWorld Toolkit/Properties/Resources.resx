@@ -151,6 +151,9 @@
   <data name="EditTask" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EditTask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="WarningHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WarningHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="OpenSelectedItemHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OpenSelectedItemHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,6 +172,9 @@
   <data name="SaveFormDesignHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SaveFormDesignHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="112_RefreshArrow_Green_24x24_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_RefreshArrow_Green_24x24_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SaveAllHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SaveAllHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,7 +190,7 @@
   <data name="openfolderHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\openfolderHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WarningHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WarningHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="112_RefreshArrow_Green_16x16_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112_RefreshArrow_Green_16x16_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
