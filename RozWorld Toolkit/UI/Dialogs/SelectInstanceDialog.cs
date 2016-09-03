@@ -41,8 +41,8 @@ namespace Oddmatics.RozWorld.Toolkit.UI.Dialogs
 
         public DialogResult ShowDialog()
         {
-            this.InstructionLabel.Text.Replace("$SUBJECT$", Subject);
-            this.InstructionLabel.Text.Replace("$ARTICLE$", Article);
+            this.InstructionLabel.Text = this.InstructionLabel.Text.Replace("$SUBJECT$", Subject);
+            this.InstructionLabel.Text = this.InstructionLabel.Text.Replace("$ARTICLE$", Article);
 
             Processes = Process.GetProcesses();
 

@@ -59,7 +59,7 @@ namespace Oddmatics.RozWorld.Toolkit.UI
                     case OpenWhatResult.ClientByInstance:
                         var selectClientDialog = new SelectInstanceDialog();
 
-                        selectClientDialog.Filter = "explorer.exe";
+                        selectClientDialog.Filter = "explorer";
                         selectClientDialog.Subject = "client";
 
                         selectClientDialog.ShowDialog();
@@ -69,7 +69,7 @@ namespace Oddmatics.RozWorld.Toolkit.UI
                     case OpenWhatResult.ServerByInstance:
                         var selectServerDialog = new SelectInstanceDialog();
 
-                        selectServerDialog.Filter = "csrss.exe";
+                        selectServerDialog.Filter = "csrss";
                         selectServerDialog.Subject = "server";
 
                         selectServerDialog.ShowDialog();
