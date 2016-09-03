@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Oddmatics.RozWorld.Toolkit.UI.Dialogs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +22,7 @@ namespace Oddmatics.RozWorld.Toolkit.UI
 
         private void New_MenuButton_Click(object sender, EventArgs e)
         {
-
+            InvokeNewDialog();
         }
 
         #endregion
@@ -32,7 +33,11 @@ namespace Oddmatics.RozWorld.Toolkit.UI
         /// </summary>
         public void InvokeNewDialog()
         {
+            // TODO: Handle anything that needs to be dealt with before showing the new dialog
 
+            var newDialog = new NewDialog();
+
+            newDialog.ShowDialog();
         }
     }
 }
