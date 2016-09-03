@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "OK",
             "Rectified user \"rozza\"."}, 0);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "WARN",
             "Player \"rozza\" does not have a valid creation IP."}, 2);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "WARN",
             "Resources are loaded that are not utilised by any open server, this may cause con" +
                 "flicts."}, 2);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "PROBLEM",
             "Player \"rozza\" is assigned to a group that does not exist."}, 1);
@@ -122,25 +122,25 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.StandardToolbar = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton10 = new System.Windows.Forms.ToolStripSeparator();
+            this.StdToolbarSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.StdToolbarSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.StdToolbarSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.listView1 = new System.Windows.Forms.ListView();
             this.ColumnStatus = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColumnStatusExpanded = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColumnMessage = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ImgListStatIcons = new System.Windows.Forms.ImageList(this.components);
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripSplitButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripSplitButton();
-            this.toolStripButton9 = new System.Windows.Forms.ToolStripSplitButton();
-            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
+            this.StdToolbarNew = new System.Windows.Forms.ToolStripButton();
+            this.StdToolbarOpenSplit = new System.Windows.Forms.ToolStripSplitButton();
+            this.StdToolbarSave = new System.Windows.Forms.ToolStripButton();
+            this.StdToolbarSaveAll = new System.Windows.Forms.ToolStripButton();
+            this.StdToolbarCut = new System.Windows.Forms.ToolStripButton();
+            this.StdToolbarCopy = new System.Windows.Forms.ToolStripButton();
+            this.StdToolbarPaste = new System.Windows.Forms.ToolStripButton();
+            this.StdToolbarUndoSplit = new System.Windows.Forms.ToolStripSplitButton();
+            this.StdToolbarRedoSplit = new System.Windows.Forms.ToolStripSplitButton();
+            this.StdToolbarPlgMgr = new System.Windows.Forms.ToolStripButton();
+            this.StdToolbarResMgr = new System.Windows.Forms.ToolStripButton();
             this.FileMenuNew = new System.Windows.Forms.ToolStripMenuItem();
             this.FileOpenMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.FileOpenMenuCbf = new System.Windows.Forms.ToolStripMenuItem();
@@ -172,6 +172,13 @@
             this.HelpMenuDocsPage = new System.Windows.Forms.ToolStripMenuItem();
             this.HelpMenuGitHub = new System.Windows.Forms.ToolStripMenuItem();
             this.HelpMenuSbmtIssue = new System.Windows.Forms.ToolStripMenuItem();
+            this.StdToolbarOpenCbf = new System.Windows.Forms.ToolStripMenuItem();
+            this.StdToolbarOpenCbi = new System.Windows.Forms.ToolStripMenuItem();
+            this.StdToolbarOpenSprtr1 = new System.Windows.Forms.ToolStripSeparator();
+            this.StdToolbarIdvlFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.StdToolbarOpenSprtr2 = new System.Windows.Forms.ToolStripSeparator();
+            this.StdToolbarOpenSbf = new System.Windows.Forms.ToolStripMenuItem();
+            this.StdToolbarOpenSbi = new System.Windows.Forms.ToolStripMenuItem();
             this.GlobalMenuStrip.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -791,40 +798,40 @@
             // StandardToolbar
             // 
             this.StandardToolbar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1,
-            this.toolStripButton2,
-            this.toolStripButton3,
-            this.toolStripButton4,
-            this.toolStripSeparator17,
-            this.toolStripButton5,
-            this.toolStripButton6,
-            this.toolStripButton7,
-            this.toolStripSeparator18,
-            this.toolStripButton8,
-            this.toolStripButton9,
-            this.toolStripButton10,
-            this.toolStripButton11,
-            this.toolStripButton12});
+            this.StdToolbarNew,
+            this.StdToolbarOpenSplit,
+            this.StdToolbarSave,
+            this.StdToolbarSaveAll,
+            this.StdToolbarSeparator1,
+            this.StdToolbarCut,
+            this.StdToolbarCopy,
+            this.StdToolbarPaste,
+            this.StdToolbarSeparator2,
+            this.StdToolbarUndoSplit,
+            this.StdToolbarRedoSplit,
+            this.StdToolbarSeparator3,
+            this.StdToolbarPlgMgr,
+            this.StdToolbarResMgr});
             this.StandardToolbar.Location = new System.Drawing.Point(0, 24);
             this.StandardToolbar.Name = "StandardToolbar";
             this.StandardToolbar.Size = new System.Drawing.Size(928, 25);
             this.StandardToolbar.TabIndex = 2;
             this.StandardToolbar.Text = "toolStrip1";
             // 
-            // toolStripSeparator17
+            // StdToolbarSeparator1
             // 
-            this.toolStripSeparator17.Name = "toolStripSeparator17";
-            this.toolStripSeparator17.Size = new System.Drawing.Size(6, 25);
+            this.StdToolbarSeparator1.Name = "StdToolbarSeparator1";
+            this.StdToolbarSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripSeparator18
+            // StdToolbarSeparator2
             // 
-            this.toolStripSeparator18.Name = "toolStripSeparator18";
-            this.toolStripSeparator18.Size = new System.Drawing.Size(6, 25);
+            this.StdToolbarSeparator2.Name = "StdToolbarSeparator2";
+            this.StdToolbarSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripButton10
+            // StdToolbarSeparator3
             // 
-            this.toolStripButton10.Name = "toolStripButton10";
-            this.toolStripButton10.Size = new System.Drawing.Size(6, 25);
+            this.StdToolbarSeparator3.Name = "StdToolbarSeparator3";
+            this.StdToolbarSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
             // listView1
             // 
@@ -834,10 +841,10 @@
             this.ColumnMessage});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3,
-            listViewItem4});
+            listViewItem5,
+            listViewItem6,
+            listViewItem7,
+            listViewItem8});
             this.listView1.Location = new System.Drawing.Point(0, 479);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(928, 97);
@@ -869,104 +876,112 @@
             this.ImgListStatIcons.Images.SetKeyName(1, "SeriousWarning16.png");
             this.ImgListStatIcons.Images.SetKeyName(2, "Warning16.png");
             // 
-            // toolStripButton1
+            // StdToolbarNew
             // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.NewDocumentHS;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "toolStripButton1";
+            this.StdToolbarNew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarNew.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.NewDocumentHS;
+            this.StdToolbarNew.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarNew.Name = "StdToolbarNew";
+            this.StdToolbarNew.Size = new System.Drawing.Size(23, 22);
+            this.StdToolbarNew.Text = "toolStripButton1";
             // 
-            // toolStripButton2
+            // StdToolbarOpenSplit
             // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.openfolderHS;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(32, 22);
-            this.toolStripButton2.Text = "toolStripButton2";
+            this.StdToolbarOpenSplit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarOpenSplit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.StdToolbarOpenCbf,
+            this.StdToolbarOpenCbi,
+            this.StdToolbarOpenSprtr1,
+            this.StdToolbarIdvlFile,
+            this.StdToolbarOpenSprtr2,
+            this.StdToolbarOpenSbf,
+            this.StdToolbarOpenSbi});
+            this.StdToolbarOpenSplit.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.openfolderHS;
+            this.StdToolbarOpenSplit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarOpenSplit.Name = "StdToolbarOpenSplit";
+            this.StdToolbarOpenSplit.Size = new System.Drawing.Size(32, 22);
+            this.StdToolbarOpenSplit.Text = "toolStripButton2";
             // 
-            // toolStripButton3
+            // StdToolbarSave
             // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.saveHS;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton3.Text = "toolStripButton3";
+            this.StdToolbarSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarSave.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.saveHS;
+            this.StdToolbarSave.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarSave.Name = "StdToolbarSave";
+            this.StdToolbarSave.Size = new System.Drawing.Size(23, 22);
+            this.StdToolbarSave.Text = "toolStripButton3";
             // 
-            // toolStripButton4
+            // StdToolbarSaveAll
             // 
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton4.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.SaveAllHS;
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton4.Text = "toolStripButton4";
+            this.StdToolbarSaveAll.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarSaveAll.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.SaveAllHS;
+            this.StdToolbarSaveAll.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarSaveAll.Name = "StdToolbarSaveAll";
+            this.StdToolbarSaveAll.Size = new System.Drawing.Size(23, 22);
+            this.StdToolbarSaveAll.Text = "toolStripButton4";
             // 
-            // toolStripButton5
+            // StdToolbarCut
             // 
-            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton5.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.CutHS;
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton5.Text = "toolStripButton5";
+            this.StdToolbarCut.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarCut.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.CutHS;
+            this.StdToolbarCut.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarCut.Name = "StdToolbarCut";
+            this.StdToolbarCut.Size = new System.Drawing.Size(23, 22);
+            this.StdToolbarCut.Text = "toolStripButton5";
             // 
-            // toolStripButton6
+            // StdToolbarCopy
             // 
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton6.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.CopyHS;
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton6.Text = "toolStripButton6";
+            this.StdToolbarCopy.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarCopy.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.CopyHS;
+            this.StdToolbarCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarCopy.Name = "StdToolbarCopy";
+            this.StdToolbarCopy.Size = new System.Drawing.Size(23, 22);
+            this.StdToolbarCopy.Text = "toolStripButton6";
             // 
-            // toolStripButton7
+            // StdToolbarPaste
             // 
-            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton7.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.PasteHS;
-            this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton7.Text = "toolStripButton7";
+            this.StdToolbarPaste.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarPaste.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.PasteHS;
+            this.StdToolbarPaste.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarPaste.Name = "StdToolbarPaste";
+            this.StdToolbarPaste.Size = new System.Drawing.Size(23, 22);
+            this.StdToolbarPaste.Text = "toolStripButton7";
             // 
-            // toolStripButton8
+            // StdToolbarUndoSplit
             // 
-            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton8.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.Edit_UndoHS;
-            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(32, 22);
-            this.toolStripButton8.Text = "toolStripButton8";
+            this.StdToolbarUndoSplit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarUndoSplit.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.Edit_UndoHS;
+            this.StdToolbarUndoSplit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarUndoSplit.Name = "StdToolbarUndoSplit";
+            this.StdToolbarUndoSplit.Size = new System.Drawing.Size(32, 22);
+            this.StdToolbarUndoSplit.Text = "toolStripButton8";
             // 
-            // toolStripButton9
+            // StdToolbarRedoSplit
             // 
-            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton9.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.Edit_RedoHS;
-            this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton9.Name = "toolStripButton9";
-            this.toolStripButton9.Size = new System.Drawing.Size(32, 22);
-            this.toolStripButton9.Text = "toolStripButton9";
+            this.StdToolbarRedoSplit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarRedoSplit.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.Edit_RedoHS;
+            this.StdToolbarRedoSplit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarRedoSplit.Name = "StdToolbarRedoSplit";
+            this.StdToolbarRedoSplit.Size = new System.Drawing.Size(32, 22);
+            this.StdToolbarRedoSplit.Text = "toolStripButton9";
             // 
-            // toolStripButton11
+            // StdToolbarPlgMgr
             // 
-            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton11.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.OpenSelectedItemHS;
-            this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton11.Text = "toolStripButton11";
+            this.StdToolbarPlgMgr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarPlgMgr.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.OpenSelectedItemHS;
+            this.StdToolbarPlgMgr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarPlgMgr.Name = "StdToolbarPlgMgr";
+            this.StdToolbarPlgMgr.Size = new System.Drawing.Size(23, 22);
+            this.StdToolbarPlgMgr.Text = "toolStripButton11";
             // 
-            // toolStripButton12
+            // StdToolbarResMgr
             // 
-            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton12.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.ActualSizeHS;
-            this.toolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton12.Name = "toolStripButton12";
-            this.toolStripButton12.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton12.Text = "toolStripButton12";
+            this.StdToolbarResMgr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StdToolbarResMgr.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.ActualSizeHS;
+            this.StdToolbarResMgr.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StdToolbarResMgr.Name = "StdToolbarResMgr";
+            this.StdToolbarResMgr.Size = new System.Drawing.Size(23, 22);
+            this.StdToolbarResMgr.Text = "toolStripButton12";
             // 
             // FileMenuNew
             // 
@@ -975,6 +990,7 @@
             this.FileMenuNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.FileMenuNew.Size = new System.Drawing.Size(189, 22);
             this.FileMenuNew.Text = "New...";
+            this.FileMenuNew.Click += new System.EventHandler(this.FileMenuNew_Click);
             // 
             // FileOpenMenu
             // 
@@ -996,45 +1012,45 @@
             // 
             this.FileOpenMenuCbf.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.openfolderHS;
             this.FileOpenMenuCbf.Name = "FileOpenMenuCbf";
-            this.FileOpenMenuCbf.Size = new System.Drawing.Size(164, 22);
-            this.FileOpenMenuCbf.Text = "Client by Folder";
+            this.FileOpenMenuCbf.Size = new System.Drawing.Size(173, 22);
+            this.FileOpenMenuCbf.Text = "Client by Folder...";
             // 
             // FileOpenMenuCbi
             // 
             this.FileOpenMenuCbi.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.OpenSelectedItemHS;
             this.FileOpenMenuCbi.Name = "FileOpenMenuCbi";
-            this.FileOpenMenuCbi.Size = new System.Drawing.Size(164, 22);
-            this.FileOpenMenuCbi.Text = "Client by Instance";
+            this.FileOpenMenuCbi.Size = new System.Drawing.Size(173, 22);
+            this.FileOpenMenuCbi.Text = "Client by Instance...";
             // 
             // FileOpenMenuSeparator1
             // 
             this.FileOpenMenuSeparator1.Name = "FileOpenMenuSeparator1";
-            this.FileOpenMenuSeparator1.Size = new System.Drawing.Size(161, 6);
+            this.FileOpenMenuSeparator1.Size = new System.Drawing.Size(170, 6);
             // 
             // FileOpenMenuIdvlFile
             // 
             this.FileOpenMenuIdvlFile.Name = "FileOpenMenuIdvlFile";
-            this.FileOpenMenuIdvlFile.Size = new System.Drawing.Size(164, 22);
-            this.FileOpenMenuIdvlFile.Text = "Individual File";
+            this.FileOpenMenuIdvlFile.Size = new System.Drawing.Size(173, 22);
+            this.FileOpenMenuIdvlFile.Text = "Individual File...";
             // 
             // FileOpenMenuSeparator2
             // 
             this.FileOpenMenuSeparator2.Name = "FileOpenMenuSeparator2";
-            this.FileOpenMenuSeparator2.Size = new System.Drawing.Size(161, 6);
+            this.FileOpenMenuSeparator2.Size = new System.Drawing.Size(170, 6);
             // 
             // FileOpenMenuSbf
             // 
             this.FileOpenMenuSbf.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.openfolderHS;
             this.FileOpenMenuSbf.Name = "FileOpenMenuSbf";
-            this.FileOpenMenuSbf.Size = new System.Drawing.Size(164, 22);
-            this.FileOpenMenuSbf.Text = "Server by Folder";
+            this.FileOpenMenuSbf.Size = new System.Drawing.Size(173, 22);
+            this.FileOpenMenuSbf.Text = "Server by Folder...";
             // 
             // FileOpenMenuSbi
             // 
             this.FileOpenMenuSbi.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.OpenSelectedItemHS;
             this.FileOpenMenuSbi.Name = "FileOpenMenuSbi";
-            this.FileOpenMenuSbi.Size = new System.Drawing.Size(164, 22);
-            this.FileOpenMenuSbi.Text = "Server by Instance";
+            this.FileOpenMenuSbi.Size = new System.Drawing.Size(173, 22);
+            this.FileOpenMenuSbi.Text = "Server by Instance...";
             // 
             // FileMenuSave
             // 
@@ -1206,6 +1222,50 @@
             this.HelpMenuSbmtIssue.Size = new System.Drawing.Size(189, 22);
             this.HelpMenuSbmtIssue.Text = "Submit an Issue...";
             // 
+            // StdToolbarOpenCbf
+            // 
+            this.StdToolbarOpenCbf.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.openfolderHS;
+            this.StdToolbarOpenCbf.Name = "StdToolbarOpenCbf";
+            this.StdToolbarOpenCbf.Size = new System.Drawing.Size(173, 22);
+            this.StdToolbarOpenCbf.Text = "Client by Folder...";
+            // 
+            // StdToolbarOpenCbi
+            // 
+            this.StdToolbarOpenCbi.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.OpenSelectedItemHS;
+            this.StdToolbarOpenCbi.Name = "StdToolbarOpenCbi";
+            this.StdToolbarOpenCbi.Size = new System.Drawing.Size(173, 22);
+            this.StdToolbarOpenCbi.Text = "Client by Instance...";
+            // 
+            // StdToolbarOpenSprtr1
+            // 
+            this.StdToolbarOpenSprtr1.Name = "StdToolbarOpenSprtr1";
+            this.StdToolbarOpenSprtr1.Size = new System.Drawing.Size(170, 6);
+            // 
+            // StdToolbarIdvlFile
+            // 
+            this.StdToolbarIdvlFile.Name = "StdToolbarIdvlFile";
+            this.StdToolbarIdvlFile.Size = new System.Drawing.Size(173, 22);
+            this.StdToolbarIdvlFile.Text = "Individual File...";
+            // 
+            // StdToolbarOpenSprtr2
+            // 
+            this.StdToolbarOpenSprtr2.Name = "StdToolbarOpenSprtr2";
+            this.StdToolbarOpenSprtr2.Size = new System.Drawing.Size(170, 6);
+            // 
+            // StdToolbarOpenSbf
+            // 
+            this.StdToolbarOpenSbf.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.openfolderHS;
+            this.StdToolbarOpenSbf.Name = "StdToolbarOpenSbf";
+            this.StdToolbarOpenSbf.Size = new System.Drawing.Size(173, 22);
+            this.StdToolbarOpenSbf.Text = "Server by Folder...";
+            // 
+            // StdToolbarOpenSbi
+            // 
+            this.StdToolbarOpenSbi.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.OpenSelectedItemHS;
+            this.StdToolbarOpenSbi.Name = "StdToolbarOpenSbi";
+            this.StdToolbarOpenSbi.Size = new System.Drawing.Size(173, 22);
+            this.StdToolbarOpenSbi.Text = "Server by Instance...";
+            // 
             // MainGui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1343,22 +1403,29 @@
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.ImageList ImgListStatIcons;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton StdToolbarNew;
         private System.Windows.Forms.LinkLabel linkLabel5;
         private System.Windows.Forms.LinkLabel linkLabel6;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator17;
-        private System.Windows.Forms.ToolStripSplitButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton5;
-        private System.Windows.Forms.ToolStripButton toolStripButton6;
-        private System.Windows.Forms.ToolStripButton toolStripButton7;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator18;
-        private System.Windows.Forms.ToolStripSplitButton toolStripButton8;
-        private System.Windows.Forms.ToolStripSplitButton toolStripButton9;
-        private System.Windows.Forms.ToolStripSeparator toolStripButton10;
-        private System.Windows.Forms.ToolStripButton toolStripButton11;
-        private System.Windows.Forms.ToolStripButton toolStripButton12;
+        private System.Windows.Forms.ToolStripButton StdToolbarSave;
+        private System.Windows.Forms.ToolStripButton StdToolbarSaveAll;
+        private System.Windows.Forms.ToolStripSeparator StdToolbarSeparator1;
+        private System.Windows.Forms.ToolStripSplitButton StdToolbarOpenSplit;
+        private System.Windows.Forms.ToolStripButton StdToolbarCut;
+        private System.Windows.Forms.ToolStripButton StdToolbarCopy;
+        private System.Windows.Forms.ToolStripButton StdToolbarPaste;
+        private System.Windows.Forms.ToolStripSeparator StdToolbarSeparator2;
+        private System.Windows.Forms.ToolStripSplitButton StdToolbarUndoSplit;
+        private System.Windows.Forms.ToolStripSplitButton StdToolbarRedoSplit;
+        private System.Windows.Forms.ToolStripSeparator StdToolbarSeparator3;
+        private System.Windows.Forms.ToolStripButton StdToolbarPlgMgr;
+        private System.Windows.Forms.ToolStripButton StdToolbarResMgr;
+        private System.Windows.Forms.ToolStripMenuItem StdToolbarOpenCbf;
+        private System.Windows.Forms.ToolStripMenuItem StdToolbarOpenCbi;
+        private System.Windows.Forms.ToolStripSeparator StdToolbarOpenSprtr1;
+        private System.Windows.Forms.ToolStripMenuItem StdToolbarIdvlFile;
+        private System.Windows.Forms.ToolStripSeparator StdToolbarOpenSprtr2;
+        private System.Windows.Forms.ToolStripMenuItem StdToolbarOpenSbf;
+        private System.Windows.Forms.ToolStripMenuItem StdToolbarOpenSbi;
     }
 }
 

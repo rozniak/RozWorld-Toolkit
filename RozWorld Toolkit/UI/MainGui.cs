@@ -15,5 +15,24 @@ namespace Oddmatics.RozWorld.Toolkit.UI
         {
             InitializeComponent();
         }
+
+
+        #region Pass-on Menu/Toolbar Events
+
+        private void New_MenuButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        #endregion
+
+
+        /// <summary>
+        /// Opens and handles the new file/session dialog.
+        /// </summary>
+        public void InvokeNewDialog()
+        {
+
+        }
     }
 }
