@@ -65,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Tab\StartPageTab.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="UI\Dialogs\NewDialog.resx">
       <DependentUpon>NewDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,9 +143,7 @@
   <ItemGroup>
     <None Include="Resources\Calendar_scheduleHS.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UI\Tab\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Edit_RedoHS.png" />
   </ItemGroup>
