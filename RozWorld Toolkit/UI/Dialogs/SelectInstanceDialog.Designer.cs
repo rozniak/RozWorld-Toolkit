@@ -114,7 +114,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Select Instance...";
+            this.Text = "Select Instance";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -39,7 +39,7 @@ namespace Oddmatics.RozWorld.Toolkit.UI.Dialogs
         }
 
 
-        public DialogResult ShowDialog()
+        public new DialogResult ShowDialog()
         {
             this.InstructionLabel.Text = this.InstructionLabel.Text.Replace("$SUBJECT$", Subject);
             this.InstructionLabel.Text = this.InstructionLabel.Text.Replace("$ARTICLE$", Article);
@@ -56,6 +56,7 @@ namespace Oddmatics.RozWorld.Toolkit.UI.Dialogs
 
             return base.ShowDialog();
         }
+
 
         private void OKButton_Click(object sender, EventArgs e)
         {

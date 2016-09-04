@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "OK",
             "Rectified user \"rozza\"."}, 0);
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "WARN",
             "Player \"rozza\" does not have a valid creation IP."}, 2);
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "WARN",
             "Resources are loaded that are not utilised by any open server, this may cause con" +
                 "flicts."}, 2);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "PROBLEM",
             "Player \"rozza\" is assigned to a group that does not exist."}, 1);
@@ -737,40 +737,40 @@
             this.ToolsMenuDplyMgr.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.EditTask;
             this.ToolsMenuDplyMgr.Name = "ToolsMenuDplyMgr";
             this.ToolsMenuDplyMgr.ShortcutKeys = System.Windows.Forms.Keys.F3;
-            this.ToolsMenuDplyMgr.Size = new System.Drawing.Size(201, 22);
-            this.ToolsMenuDplyMgr.Text = "Deployments Manager";
+            this.ToolsMenuDplyMgr.Size = new System.Drawing.Size(210, 22);
+            this.ToolsMenuDplyMgr.Text = "Deployments Manager...";
             // 
             // ToolsMenuPlgMgr
             // 
             this.ToolsMenuPlgMgr.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.OpenSelectedItemHS;
             this.ToolsMenuPlgMgr.Name = "ToolsMenuPlgMgr";
             this.ToolsMenuPlgMgr.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.F3)));
-            this.ToolsMenuPlgMgr.Size = new System.Drawing.Size(201, 22);
-            this.ToolsMenuPlgMgr.Text = "Plugin Manager";
+            this.ToolsMenuPlgMgr.Size = new System.Drawing.Size(210, 22);
+            this.ToolsMenuPlgMgr.Text = "Plugin Manager...";
             // 
             // ToolsMenuResMgr
             // 
             this.ToolsMenuResMgr.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.ActualSizeHS;
             this.ToolsMenuResMgr.Name = "ToolsMenuResMgr";
             this.ToolsMenuResMgr.ShortcutKeys = System.Windows.Forms.Keys.F10;
-            this.ToolsMenuResMgr.Size = new System.Drawing.Size(201, 22);
-            this.ToolsMenuResMgr.Text = "Resource Manager";
+            this.ToolsMenuResMgr.Size = new System.Drawing.Size(210, 22);
+            this.ToolsMenuResMgr.Text = "Resource Manager...";
             // 
             // ToolsMenuSeparator1
             // 
             this.ToolsMenuSeparator1.Name = "ToolsMenuSeparator1";
-            this.ToolsMenuSeparator1.Size = new System.Drawing.Size(198, 6);
+            this.ToolsMenuSeparator1.Size = new System.Drawing.Size(207, 6);
             // 
             // ToolsMenuCustomize
             // 
             this.ToolsMenuCustomize.Name = "ToolsMenuCustomize";
-            this.ToolsMenuCustomize.Size = new System.Drawing.Size(201, 22);
+            this.ToolsMenuCustomize.Size = new System.Drawing.Size(210, 22);
             this.ToolsMenuCustomize.Text = "Customize...";
             // 
             // ToolsMenuOptions
             // 
             this.ToolsMenuOptions.Name = "ToolsMenuOptions";
-            this.ToolsMenuOptions.Size = new System.Drawing.Size(201, 22);
+            this.ToolsMenuOptions.Size = new System.Drawing.Size(210, 22);
             this.ToolsMenuOptions.Text = "Options...";
             // 
             // WindowMenu
@@ -792,49 +792,49 @@
             // 
             this.WndowMenuNewWnd.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.NewWindow;
             this.WndowMenuNewWnd.Name = "WndowMenuNewWnd";
-            this.WndowMenuNewWnd.Size = new System.Drawing.Size(137, 22);
+            this.WndowMenuNewWnd.Size = new System.Drawing.Size(152, 22);
             this.WndowMenuNewWnd.Text = "New Window";
             // 
             // WindowMenuSpltWnd
             // 
             this.WindowMenuSpltWnd.Image = global::Oddmatics.RozWorld.Toolkit.Properties.Resources.ArrangeWindowsHS;
             this.WindowMenuSpltWnd.Name = "WindowMenuSpltWnd";
-            this.WindowMenuSpltWnd.Size = new System.Drawing.Size(137, 22);
+            this.WindowMenuSpltWnd.Size = new System.Drawing.Size(152, 22);
             this.WindowMenuSpltWnd.Text = "Split";
             // 
             // WindowMenuSeparator1
             // 
             this.WindowMenuSeparator1.Name = "WindowMenuSeparator1";
-            this.WindowMenuSeparator1.Size = new System.Drawing.Size(134, 6);
+            this.WindowMenuSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // toolStripMenuItem22
             // 
             this.toolStripMenuItem22.Name = "toolStripMenuItem22";
-            this.toolStripMenuItem22.Size = new System.Drawing.Size(137, 22);
+            this.toolStripMenuItem22.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem22.Text = "1";
             // 
             // toolStripMenuItem23
             // 
             this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-            this.toolStripMenuItem23.Size = new System.Drawing.Size(137, 22);
+            this.toolStripMenuItem23.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem23.Text = "2";
             // 
             // toolStripMenuItem24
             // 
             this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-            this.toolStripMenuItem24.Size = new System.Drawing.Size(137, 22);
+            this.toolStripMenuItem24.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem24.Text = "3";
             // 
             // toolStripMenuItem25
             // 
             this.toolStripMenuItem25.Name = "toolStripMenuItem25";
-            this.toolStripMenuItem25.Size = new System.Drawing.Size(137, 22);
+            this.toolStripMenuItem25.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem25.Text = "4";
             // 
             // toolStripMenuItem26
             // 
             this.toolStripMenuItem26.Name = "toolStripMenuItem26";
-            this.toolStripMenuItem26.Size = new System.Drawing.Size(137, 22);
+            this.toolStripMenuItem26.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem26.Text = "5";
             // 
             // HelpMenu
@@ -1065,7 +1065,7 @@
             this.StdToolbarNew.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarNew.Name = "StdToolbarNew";
             this.StdToolbarNew.Size = new System.Drawing.Size(23, 22);
-            this.StdToolbarNew.Text = "toolStripButton1";
+            this.StdToolbarNew.Text = "New...";
             this.StdToolbarNew.Click += new System.EventHandler(this.New_MenuButton_Click);
             // 
             // StdToolbarOpenSplit
@@ -1083,7 +1083,7 @@
             this.StdToolbarOpenSplit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarOpenSplit.Name = "StdToolbarOpenSplit";
             this.StdToolbarOpenSplit.Size = new System.Drawing.Size(32, 22);
-            this.StdToolbarOpenSplit.Text = "toolStripButton2";
+            this.StdToolbarOpenSplit.Text = "Open...";
             this.StdToolbarOpenSplit.ButtonClick += new System.EventHandler(this.Open_MenuButton_Click);
             // 
             // StdToolbarOpenCbf
@@ -1137,7 +1137,7 @@
             this.StdToolbarSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarSave.Name = "StdToolbarSave";
             this.StdToolbarSave.Size = new System.Drawing.Size(23, 22);
-            this.StdToolbarSave.Text = "toolStripButton3";
+            this.StdToolbarSave.Text = "Save";
             // 
             // StdToolbarSaveAll
             // 
@@ -1146,7 +1146,7 @@
             this.StdToolbarSaveAll.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarSaveAll.Name = "StdToolbarSaveAll";
             this.StdToolbarSaveAll.Size = new System.Drawing.Size(23, 22);
-            this.StdToolbarSaveAll.Text = "toolStripButton4";
+            this.StdToolbarSaveAll.Text = "Save All";
             // 
             // StdToolbarSeparator1
             // 
@@ -1160,7 +1160,7 @@
             this.StdToolbarCut.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarCut.Name = "StdToolbarCut";
             this.StdToolbarCut.Size = new System.Drawing.Size(23, 22);
-            this.StdToolbarCut.Text = "toolStripButton5";
+            this.StdToolbarCut.Text = "Cut";
             // 
             // StdToolbarCopy
             // 
@@ -1169,7 +1169,7 @@
             this.StdToolbarCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarCopy.Name = "StdToolbarCopy";
             this.StdToolbarCopy.Size = new System.Drawing.Size(23, 22);
-            this.StdToolbarCopy.Text = "toolStripButton6";
+            this.StdToolbarCopy.Text = "Copy";
             // 
             // StdToolbarPaste
             // 
@@ -1178,7 +1178,7 @@
             this.StdToolbarPaste.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarPaste.Name = "StdToolbarPaste";
             this.StdToolbarPaste.Size = new System.Drawing.Size(23, 22);
-            this.StdToolbarPaste.Text = "toolStripButton7";
+            this.StdToolbarPaste.Text = "Paste";
             // 
             // StdToolbarSeparator2
             // 
@@ -1192,7 +1192,7 @@
             this.StdToolbarUndoSplit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarUndoSplit.Name = "StdToolbarUndoSplit";
             this.StdToolbarUndoSplit.Size = new System.Drawing.Size(32, 22);
-            this.StdToolbarUndoSplit.Text = "toolStripButton8";
+            this.StdToolbarUndoSplit.Text = "Undo";
             // 
             // StdToolbarRedoSplit
             // 
@@ -1201,7 +1201,7 @@
             this.StdToolbarRedoSplit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarRedoSplit.Name = "StdToolbarRedoSplit";
             this.StdToolbarRedoSplit.Size = new System.Drawing.Size(32, 22);
-            this.StdToolbarRedoSplit.Text = "toolStripButton9";
+            this.StdToolbarRedoSplit.Text = "Redo";
             // 
             // StdToolbarSeparator3
             // 
@@ -1215,7 +1215,7 @@
             this.StdToolbarPlgMgr.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarPlgMgr.Name = "StdToolbarPlgMgr";
             this.StdToolbarPlgMgr.Size = new System.Drawing.Size(23, 22);
-            this.StdToolbarPlgMgr.Text = "toolStripButton11";
+            this.StdToolbarPlgMgr.Text = "Plugin Manager...";
             // 
             // StdToolbarResMgr
             // 
@@ -1224,7 +1224,7 @@
             this.StdToolbarResMgr.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StdToolbarResMgr.Name = "StdToolbarResMgr";
             this.StdToolbarResMgr.Size = new System.Drawing.Size(23, 22);
-            this.StdToolbarResMgr.Text = "toolStripButton12";
+            this.StdToolbarResMgr.Text = "Resource Manager...";
             // 
             // listView1
             // 
@@ -1234,10 +1234,10 @@
             this.ColumnMessage});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5,
-            listViewItem6,
-            listViewItem7,
-            listViewItem8});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4});
             this.listView1.Location = new System.Drawing.Point(0, 479);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(928, 97);
